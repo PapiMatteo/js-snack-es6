@@ -1,15 +1,15 @@
 const bikeArray = [
     {
-        name: "bmx",
-        weight: 40
+        name: "bici 1",
+        weight: 58
     },
     {
-        name: "dh",
-        weight: 50
+        name: "bici 2",
+        weight: 47
     },
     {
-        name: "triciclo",
-        weight: 10
+        name: "bici 3",
+        weight: 35
     }
 ]
 
