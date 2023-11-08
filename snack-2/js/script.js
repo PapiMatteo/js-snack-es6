@@ -35,7 +35,7 @@ teams.forEach((curTeam, index) => {
         name,
         faul
     };
-    newTeamArray.push(teamObj)
+    newTeamArray.push(teamObj);
 })
 
 
