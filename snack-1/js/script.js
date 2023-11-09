@@ -11,7 +11,7 @@ const bikeArray = [
         name: "bici 3",
         weight: 35
     }
-]
+];
 
 let lightBike = bikeArray[0];
 
@@ -25,4 +25,4 @@ const {name, weight} = lightBike;
 
 const textElem = document.querySelector("h1");
 
-textElem.innerHTML = `La bici piu' leggera e' ${lightBike.name} con peso di ${lightBike.weight}kg`
+textElem.innerHTML = `La bici piu' leggera e' ${lightBike.name} con peso di ${lightBike.weight}kg`;
