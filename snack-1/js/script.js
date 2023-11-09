@@ -13,8 +13,16 @@ const bikeArray = [
     }
 ]
 
-const [mid, heavy, light] = bikeArray;
+let lightBike = bikeArray[0];
+
+bikeArray.forEach((curBike) => {
+    if (curBike.weight < lightBike.weight){
+        lightBike = curBike;
+    }
+})
+
+const {name, weight} = lightBike;
 
 const textElem = document.querySelector("h1");
 
-textElem.innerHTML = `La bici piu' leggera e' ${light.name} con peso di ${light.weight}kg`
+textElem.innerHTML = `La bici piu' leggera e' ${lightBike.name} con peso di ${lightBike.weight}kg`
